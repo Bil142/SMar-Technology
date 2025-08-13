@@ -1,0 +1,145 @@
+<!-- index.html - Web principal de SMar Technology -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutomaticSmar Technology | Automatización Inteligente</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(120deg, #1e3c72, #2a5298, #16a085);
+      background-size: 300% 300%;
+      animation: gradientBG 10s ease infinite;
+      color: #f0f0f0;
+    }
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    header {
+      padding: 2.5rem;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(6px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+      margin-bottom: 0.3rem;
+    }
+    header p {
+      font-size: 1.4rem;
+      color: #dfe6e9;
+    }
+    main {
+      max-width: 1200px;
+      margin: 3rem auto;
+      padding: 2.5rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+      text-align: center;
+      backdrop-filter: blur(8px);
+    }
+    h2 {
+      font-size: 2.6rem;
+      margin-bottom: 1rem;
+      color: #ffffff;
+      font-weight: 700;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      list-style: none;
+      margin: 3rem 0;
+      padding: 0;
+    }
+    li {
+      background: rgba(255,255,255,0.08);
+      padding: 1.8rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+      font-size: 1.15rem;
+      backdrop-filter: blur(6px);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    li:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+    .cta-button {
+      display: inline-block;
+      background: #16a085;
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      padding: 16px 40px;
+      border-radius: 50px;
+      font-size: 1.3rem;
+      transition: all 0.3s ease-in-out;
+      margin-top: 1rem;
+    }
+    .cta-button:hover {
+      background: #1abc9c;
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    }
+    footer {
+      background: rgba(0, 0, 0, 0.35);
+      color: #ddd;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 1rem;
+      margin-top: 4rem;
+      backdrop-filter: blur(5px);
+    }
+    footer a {
+      color: #1abc9c;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AutomaticSmar Technology</h1>
+    <p>Automatiza tu negocio con inteligencia artificial sin complicaciones</p>
+  </header>
+
+  <main>
+    <h2>🚀 La revolución inteligente para tu negocio</h2>
+    <p>Soluciones digitales para clínicas, peluquerías, comercios, freelancers y más.  
+    Ahorra tiempo, responde a tus clientes 24/7 y agenda citas sin esfuerzo.</p>
+
+    <ul>
+      <li>🤖 Chatbots personalizados para atención al cliente</li>
+      <li>📅 Agentes conversacionales para agendar citas</li>
+      <li>📱 Bots para WhatsApp, webs o formularios interactivos</li>
+      <li>⚙️ Automatización de tareas repetitivas</li>
+      <li>❓ Asistentes FAQ inteligentes</li>
+      <li>🌐 Integración con webs, WordPress o sin web</li>
+    </ul>
+
+    <a class="cta-button" href="agentes.html">Descubre qué es un bot agente →</a><br><br>
+    <a class="cta-button" style="background:#e67e22" href="mailto:iasmartechnology@gmail.com">📩 Contáctanos Ahora</a>
+  </main>
+
+  <footer>
+    &copy; 2025 AutomaticSmar Technology | 
+    <a href="mailto:iasmartechnology@gmail.com">iasmartechnology@gmail.com</a>
+  </footer>
+</body>
+</html>
